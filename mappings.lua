@@ -32,6 +32,18 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>le"] = {
+      function() vim.diagnostic.open_float(0, { scope = "line" }) end,
+      desc = "Show line diagnostics",
+    },
+    ["K"] = {
+      "<cmd>MoveLine(-1)<CR>",
+      desc = "Move line up",
+    },
+    ["J"] = {
+      "<cmd>MoveLine(1)<CR>",
+      desc = "Move line down",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
