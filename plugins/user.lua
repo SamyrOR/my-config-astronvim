@@ -9,12 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  "hrsh7th/cmp-vsnip",
-  "hrsh7th/vim-vsnip",
   {
     "fedepujol/move.nvim",
     event = "BufRead",
   },
-  "wakatime/vim-wakatime",
-  lazy = false,
+  { "wakatime/vim-wakatime", lazy = false },
 }
