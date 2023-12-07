@@ -10,6 +10,7 @@ return {
         "lua_ls",
         "tailwindcss",
         "emmet_ls",
+        "yamlls",
       })
     end,
   },

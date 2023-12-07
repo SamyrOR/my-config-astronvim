@@ -6,7 +6,8 @@ return {
       -- "lua"
       "elixir",
       "eex",
-      "heex"
+      "heex",
+      "yaml",
     })
   end,
 }
